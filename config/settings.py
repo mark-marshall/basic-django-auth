@@ -122,3 +122,5 @@ STATIC_URL = '/static/'
 
 LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'home' # new
+
+STATIC_ROOT = str(os.path.join(BASE_DIR, 'static'))
